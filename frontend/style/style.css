@@ -1,0 +1,2439 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.container-xxl{
+    /* Real Estate  */
+
+position: relative;
+width: 1440px;
+height: 11634px;
+
+background: #FFFFFF;
+
+}
+
+
+nav {
+    /* Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 8px 80px 0px;
+gap: 183px;
+
+position: fixed;
+width: 1440px;
+height: 108px;
+left: calc(50% - 1440px/2);
+top: 0px;
+
+background: rgba(255, 255, 255, 0.64);
+backdrop-filter: blur(16px);
+/* Note: backdrop-filter has minimal browser support */
+
+z-index: 100;
+
+}
+
+.btn1{
+/* Secondary button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 4px;
+
+margin: 0 auto;
+width: 216px;
+height: 44px;
+background-color: #fff;
+
+border: 1px solid #000C1A;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.btn1:hover{
+
+transition : 1000ms;
+padding: 10px 24px;
+background-color: #fff;
+color: #0066cc;
+border: solid 1px #0066cc;
+}
+
+.wrapper {
+    position: absolute;
+    top:39px;
+}
+
+.home {
+    background-image: url('/asserts/background-complete\ 1.png');
+}
+.title-center {
+    /* width: 899; */
+    width: 899;
+    height: 284px;
+    position: absolute;
+    top : 291.5px;
+    left:271px;
+    text-align: center;
+
+}
+
+.title {
+
+    font-family: "Montserrat";
+font-weight: 500;
+font-size: 48px;
+color: #0d0d0d;
+
+}
+
+.highlight {
+    color: #0078FF;
+}
+
+.tab2{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.middle p{
+
+font-family: "Open Sans";
+font-weight: 400;
+font-size: 24px;
+color: #333333;
+
+}
+
+.title-btn .button1{
+    width:406px ;
+    height: 56px;
+    padding: 13px 136px 13px 136px;
+    gap: 4px;
+    border-radius: 32px;
+
+    background-color: #0078FF;
+}
+
+.button1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 34px;
+    color: #0d0d0d;
+    background-color: #0078ff;
+    border-color: #0078FF;
+    box-shadow: none;
+}
+
+.eclipse{
+    /* Ellipse 190 */
+
+position: absolute;
+width: 576px;
+height: 576px;
+left: 800.8px;
+top: 150.63px;
+
+background: #80BBFF;
+opacity: 0.24;
+filter: blur(167.5px);
+transform: rotate(140.53deg);
+
+}
+
+/* home img  */
+.home-img {
+position: absolute;
+width: 796px;
+height: 538px;
+left: calc(50% - 796px/2);
+top: 659px;
+
+mix-blend-mode: normal;
+}
+
+/* extra contain */
+
+.title2 {
+    /* Real Estate-Focused Digital Mastery */
+
+position: absolute;
+width: 839px;
+height: 48px;
+left: calc(50% - 839px/2 + 0.5px);
+top: 1418px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+}
+
+.title2-img {
+    /* directing-the-arrow-up/cuate */
+
+/* directing-the-arrow-up/cuate */
+
+position: absolute;
+left: 5.56%;
+right: 59.23%;
+top: 13.31%;
+bottom: 83.75%;
+
+
+
+
+}
+
+.card {
+   /* Frame 337 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+border-color: #ffffff;
+
+position: absolute;
+width: 733px;
+height: 385px;
+left: 627px;
+top: 1530px;
+
+
+}
+
+.card div h5 {
+    /* Unlock the Potential of Digital Real Estate Excellence */
+
+width: 646px;
+height: 96px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.card div p {
+    /* At Osumare, we understand that the real estate landscape demands a digital presence that aligns with the intricacies of property marketing. Our range of specialized services is meticulously designed to catapult your brand's success in the ever-evolving digital property market. */
+
+width: 733px;
+height: 180px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.card div a {
+    /* M buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16.5px 64px;
+gap: 4px;
+
+width: 233px;
+height: 61px;
+
+background: #0078FF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.service {
+/* Services section */
+
+/* Auto layout */
+padding: 91px 81px;
+gap: 10px;
+
+position: absolute;
+width: 1440px;
+height: 997px;
+left: calc(50% - 1440px/2);
+top: 2147px;
+
+background: #F9F9F9;
+
+}
+
+.service1 {
+    /* Frame 866 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+/* justify-content: center;
+align-items: center; */
+padding: 0px;
+gap: 68px;
+width: 1278px;
+height: 815px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame1 {
+    /* Frame 290 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 1278px;
+height: 108px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.h4service {
+    /* Our Service Offerings */
+
+width: 1278px;
+height: 48px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame1 p {
+    /* Strategies that Drive Property Market Excellence */
+
+width: 1278px;
+height: 44px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame2 {
+    /* Frame 291 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding: 0px;
+gap: 32px 30px;
+
+width: 1278px;
+height: 510px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.service-card {
+    /* Service Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 32px 16px;
+gap: 16px;
+
+width: 297px;
+height: 239px;
+
+background: #FFFFFF;
+box-shadow: -3px 4px 16px rgba(0, 0, 0, 0.04);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.cardframe {
+    /* Frame 281 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+width: 265px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.group117 {
+    /* Group 117 */
+
+width: 52px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.cardtitle {
+   /* Automotive SEO */
+
+width: 265px;
+height: 23px;
+
+/* H200-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+text-align: center;
+padding-left: 45px;
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.cardinfo{
+    /* Drive Your Success with Automotive SEO: Ignite Online Visibility and Outrace the Competition. Accelerate Your Business Growth Today */
+
+width: 265px;
+height: 76px;
+
+/* Body300/rg */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.cardinfo1{
+
+    
+width: 265px;
+height: 57px;
+
+/* Body300/rg */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.service1btn {
+    /* M buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16.5px 64px;
+gap: 4px;
+
+width: 233px;
+height: 61px;
+margin-left: 510px;
+
+background: #0078FF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.btntext {
+
+/* Get started */
+
+width: 105px;
+height: 28px;
+
+/* H200-semi */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 156% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.extra2 {
+    /* Frame 290 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 1278px;
+height: 108px;
+left: calc(50% - 1278px/2);
+top: 3302px;
+}
+
+.title3 {
+    /* Navigating Real Estate's Digital Landscape */
+
+width: 1278px;
+height: 48px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+margin-top: 30px;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.extrainfo{
+    /* Insights for Real Estate Marketing Advantage */
+
+width: 1278px;
+height: 44px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+margin-left: 385px;
+margin-bottom: 30px;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame3 {
+    /* Frame 893 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+row-gap: 0px;
+isolation: isolate;
+
+
+position: absolute;
+width: 1280px;
+height: 736px;
+left: calc(50% - 1280px/2);
+top: 3474px;
+}
+
+.frame3sub1 {
+    /* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 586px;
+height: 660px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px -99px;
+z-index: 1;
+
+}
+.frame3sub2 {
+    /* Frame 892 */
+
+width: 793px;
+height: 736px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 0;
+
+}
+
+.group114 {
+    /* Group 114 */
+    /* Frame 10 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 32px;
+gap: 16px;
+
+position: relative;
+width: 586px;
+height: 153px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #EFEFEF;
+/* Shadow */
+box-shadow: -2px 4px 32px rgba(235, 235, 235, 0.6);
+border-radius: 16px;
+
+
+
+
+
+}
+
+.group114icon{
+    /* Group 116 */
+
+width: 52px;
+height: 52px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.frame3container{/* Frame 9 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 454px;
+    height: 64px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+.frame3info{
+ /* Market Trends Analysis */
+
+width: 454px;
+height: 32px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height, or 130% */
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.frame3info1{
+    /* Predictive insights to guide real estate strategies. */
+
+width: 454px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.02em;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.extra3img {
+    /* Frame 892 */
+
+width: 793px;
+height: 736px;
+
+background: #F9F9F9;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 0;
+
+}
+
+.extra4 {
+    /* Frame 890 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+
+position: absolute;
+width: 1278px;
+height: 108px;
+left: calc(50% - 1278px/2);
+top: 4418px;
+}
+
+.extra4info{/* Driving Property Inquiries to Conversions */
+
+    width: 1278px;
+    height: 48px;
+    
+    /* H400-bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    
+    color: #000C1A;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+.extra4info1{
+    /* Streamlined Strategies for Real Estate Success */
+
+width: 1278px;
+height: 44px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+padding-left: 30%;
+
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.money {
+    /* Frame 884 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 98px;
+
+position: absolute;
+width: 1280px;
+height: 400px;
+left: calc(50% - 1280px/2 + 1px);
+top: 4600px;
+
+}
+
+.money img {
+    /* house-searching/bro */
+
+width: 500px;
+height: 400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.moneyinfo {
+    /* Frame 866 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 682px;
+height: 373px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.moneyinfo1 
+{
+    /* Frame 296 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 682px;
+height: 280px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.moneyhead {
+    /* Optimized Path to Property Purchase */
+
+width: 682px;
+height: 48px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.moneyhead1 {
+    /* In the dynamic realm of real estate, the journey from a property inquiry to a successful conversion demands a well-crafted approach. At Osumare, we specialize in guiding potential buyers through this journey seamlessly, maximizing inquiries-turned-conversions with expert strategies. */
+
+width: 682px;
+height: 216px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.moneyinfo button  {
+    /* M buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16.5px 64px;
+gap: 4px;
+
+width: 233px;
+height: 61px;
+
+background: #0078FF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.drive {
+    /* Frame 889 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 64px;
+
+position: absolute;
+width: 1280px;
+height: 1102px;
+left: calc(50% - 1280px/2);
+top: 5054px;
+}
+.driveframe1 {
+    /* Frame 885 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 64px;
+
+width: 1280px;
+height: 575px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.drivetitle {
+    /* Driving Property Inquiries to Conversions */
+
+width: 1280px;
+height: 48px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.driveframe1sub1{
+    /* Frame 871 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 35px;
+
+width: 1280px;
+height: 463px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.drivecard {
+    /* Frame 440 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 29px;
+
+width: 621px;
+height: 463px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.driveicon{
+    /* icon */
+
+width: 190px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.driveframe1sub1sub1 {
+    /* Frame 298 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 621px;
+height: 172px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.drivecardtitle {
+    /* Call-to-Action Optimization */
+
+width: 621px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 48px;
+/* identical to box height, or 200% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.drivecardinfo{
+    /* Our carefully crafted CTAs guide potential buyers through the property journey, enhancing engagement and conversion rates. */
+
+width: 621px;
+height: 108px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.driveframe2 {
+    /* Frame 872 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 38px;
+
+width: 1280px;
+height: 463px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+.actionframe {
+    /* Frame 891 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 64px;
+
+
+
+position: absolute;
+width: 1280px;
+left: calc(50% - 1280px/2);
+top: 6316px;
+bottom: 36.24%;
+
+}
+.actiontopframe {
+    /* Frame 885 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 64px;
+
+width: 1280px;
+height: 575px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.actiontitle {
+    /* Our Expertise in Action */
+
+width: 707px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.actiontopframe1 {
+    /* Frame 871 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 35px;
+
+width: 1280px;
+height: 463px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.actioncard {
+    /* Frame 440 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 29px;
+
+width: 621px;
+height: 463px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.actioncardinfo {
+    /* Frame 298 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 621px;
+height: 172px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.actionframe2 {
+    /* Frame 872 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 38px;
+
+width: 1280px;
+height: 463px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.belowaction {
+    /* Ellipse 193 */
+
+position: absolute;
+width: 576px;
+height: 576px;
+left: 0;
+top: 7550.63px;
+
+background: #409AFF;
+opacity: 0.24;
+filter: blur(167.5px);
+transform: rotate(140.53deg);
+
+}
+
+.belowactionorange {
+    /* Ellipse 192 */
+
+position: absolute;
+width: 381.87px;
+height: 630.4px;
+left: 1000.43px;
+top: 7550.82px;
+
+background: #FF725E;
+opacity: 0.24;
+filter: blur(167.5px);
+transform: matrix(-0.59, -0.81, -0.81, 0.59, 0, 0);
+
+}
+
+.mind {
+    /* Frame 869 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+
+position: absolute;
+width: 779px;
+height: 275px;
+left: calc(50% - 779px/2 + 0.5px);
+top: 7575px;
+}
+
+.mindframe {
+    /* Frame 296 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 779px;
+height: 182px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.mindtitle {
+    /* Your Peace of Mind */
+
+width: 779px;
+height: 48px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.mindinfo {
+    /* Through our conversion-focused strategies, we ensure that property seekers are not just visitors, but engaged prospects ready to make their next move in the real estate market */
+
+width: 779px;
+height: 118px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.mindbtn {
+    /* M buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16.5px 64px;
+gap: 4px;
+
+width: 233px;
+height: 61px;
+
+background: #0078FF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.pharma {
+    /* Frame 874 */
+
+position: absolute;
+width: 1440px;
+height: 1719px;
+left: 0px;
+top: 8008px;
+/* align-items: center; */
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F9F9F9 100%);
+
+}
+
+.pharmaframe1 {
+    /* Frame 292 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 1040px;
+height: 100px;
+left: calc(50% - 1040px/2);
+top: 83px;
+
+}
+
+.pharmaframe1title {
+/* What Our Pharma Partners Say */
+
+width: 1040px;
+height: 48px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.pharmaframe1info {
+    /* Driving Transformations, One Brand at a Time */
+
+width: 1040px;
+height: 36px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.pharmaframe2 {
+    /* Testimonial card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 44px;
+gap: 10px;
+
+position: absolute;
+width: 1117px;
+height: 564px;
+left: calc(50% - 1117px/2 + 0.5px);
+top: calc(50% - 564px/2 - 330.5px);
+
+background: #FFFFFF;
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
+border-radius: 16px;
+
+
+}
+
+.pharmaframesub1 {
+    /* Frame 880 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding: 0px;
+gap: 32px;
+
+width: 1029px;
+height: 464px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.pharmavideo {
+    /* Video */
+
+width: 600px;
+height: 464px;
+
+background: #F9F9F9;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.videoinfo {
+    /* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+
+width: 397px;
+height: 285px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.profile {
+    /* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 157px;
+
+width: 397px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.pic {
+    /* div.all-testimonials__box__name__profile */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+margin: 0 auto;
+width: 214px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.picname {
+    /* span */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 114px;
+height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.symbol {
+    /* Symbol */
+
+margin: 0 auto;
+width: 62px;
+height: 62px;
+
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 62px;
+line-height: 62px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+
+color: #0078FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.desc {
+    /* p */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 397px;
+height: 180px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.desc p {
+    /* Osumare's expertise in pharma marketing is unparalleled. Their strategies helped us navigate complex regulations while driving remarkable growth. */
+
+width: 397px;
+height: 180px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+display: flex;
+align-items: center;
+
+color: #010103;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.pharmaframe3 {
+    /* Frame 294 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 152px;
+height: 60px;
+left: calc(50% - 152px/2);
+top: 850px;
+
+
+}
+
+.pharmaframe4 {
+    /* Frame 878 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 64px;
+
+position: absolute;
+width: 1280px;
+height: 576.75px;
+left: 103px;
+top: 1070px;
+
+
+}
+
+.pharmaframe4sub1 {
+    /* Frame 449 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 1030px;
+height: 136px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.pharmaframe4title {
+    /* Frequently Asked Questions */
+
+width: 1030px;
+height: 48px;
+
+/* H400-bold */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.pharmaframe4info {
+    /* Pinpoint your audience with precision, ensuring your marketing efforts reach those most likely to engage with your brand. */
+
+width: 984px;
+height: 72px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.freq {
+    /* Faq */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 240px;
+
+width: 1280px;
+height: 376.75px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.formsection {
+    /* Form section */
+
+position: absolute;
+width: 1440px;
+height: 900px;
+left: calc(50% - 1440px/2);
+top: 9887px;
+
+background: #FEFEFE;
+
+}
+
+.formblue {
+    /* Ellipse 192 */
+
+position: absolute;
+width: 576px;
+height: 576px;
+left: 0;
+top: 300.63px;
+
+background: #409AFF;
+opacity: 0.24;
+filter: blur(163.5px);
+transform: rotate(140.53deg);
+z-index: 0;
+}
+
+.formorange 
+{
+    /* Ellipse 193 */
+
+position: absolute;
+width: 381.87px;
+height: 630.4px;
+left: 1000.43px;
+top: 300.82px;
+
+background: #FF725E;
+opacity: 0.24;
+filter: blur(163.5px);
+transform: matrix(-0.59, -0.81, -0.81, 0.59, 0, 0);
+z-index: 0;
+
+}
+
+.formframe1 {
+    /* Frame 342 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 752px;
+height: 136px;
+left: calc(50% - 752px/2);
+top: 143px;
+
+
+}
+
+.formtitle {
+    /* Connect with Our Digital Marketing Experts */
+
+width: 752px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 48px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #000C1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.forminfo {
+    /* Reach Out for Tailored Strategies and Results-Driven Solutions. Let's Elevate Your Online Presence Together */
+
+width: 752px;
+height: 72px;
+
+/* Body500-RG */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+form {
+    /* Form */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding: 32px 56px;
+gap: 32px;
+
+position: absolute;
+height: 424px;
+left: 268px;
+right: 268px;
+top: calc(50% - 424px/2 + 104.5px);
+
+background: #FFFFFF;
+box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+
+}
+
+.formframe2 {
+    /* Frame 343 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 792px;
+height: 360px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.inputsection {
+    /* Frame 275 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+align-content: center;
+padding: 0px;
+gap: 32px;
+
+width: 792px;
+height: 272px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.inputbox1 {
+    /* Frame 273 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 380px;
+height: 272px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.inputbox1frame1 {
+    /* Frame 242 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 380px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+label {
+    /* Name */
+
+width: 45px;
+height: 24px;
+
+/* H100-semiblod */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #0F1407;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+input {
+    /* Frame 241 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 12px;
+gap: 10px;
+
+width: 380px;
+height: 44px;
+
+background: #FCFCFC;
+border: 1px solid #C7C7C7;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.inputbox2 {
+    /* Frame 274 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 380px;
+height: 248px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.btnform {
+    /* Large button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 136px;
+gap: 4px;
+
+width: 408px;
+height: 56px;
+
+background: #0078FF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+footer {
+    /* Frame 454 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 1280px;
+height: 713px;
+left: calc(50% - 1280px/2 + 16px);
+top: 10883px;
+
+
+}
